@@ -198,6 +198,7 @@ a {
   color: #2f2f2f; }
 
 .product-section {
+  background: #cdc9c9;
   padding: 7rem 0; }
   .product-section .product-item {
     text-align: center;
@@ -270,6 +271,7 @@ a {
       height: 70%; }
 
 .why-choose-section {
+  background: #cdc9c9;
   padding: 7rem 0; }
   .why-choose-section .img-wrap {
     position: relative; }
@@ -312,7 +314,9 @@ a {
     color: #6a6a6a; }
 
 .we-help-section {
-  padding: 7rem 0; }
+  padding: 7rem 0; 
+  /* background: #cdc9c9;*/
+} 
   .we-help-section .imgs-grid {
     display: -ms-grid;
     display: grid;
@@ -418,6 +422,7 @@ a {
       z-index: -1; }
 
 .testimonial-section {
+  background: #cdc9c9;
   padding: 3rem 0 7rem 0; }
 
 .testimonial-slider-wrap {
@@ -508,7 +513,9 @@ a {
   padding: 7rem 0 12rem 0 !important; }
 
 .blog-section {
-  padding: 7rem 0 12rem 0; }
+  padding: 7rem 0 12rem 0; 
+  background: #cdc9c9;
+}
   .blog-section .post-entry a {
     text-decoration: none; }
   .blog-section .post-entry .post-thumbnail {
@@ -621,6 +628,7 @@ a {
       font-size: 14px !important; }
 
 .untree_co-section {
+  background: #cdc9c9;
   padding: 7rem 0; }
 
 .form-control {
@@ -792,9 +800,6 @@ section{
     padding: 30px;
 }
 
-
-
-
 #section1 {
   display: flex;
   justify-content: space-around;
@@ -816,8 +821,13 @@ section{
 #section4 {
   display: flex;
   justify-content: space-around;
-    background: rgb(181, 182, 179);
+  background: rgb(181, 182, 179);
+}
 
+#section5{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(181, 182, 179);
 }
 
 .product-card {
@@ -860,7 +870,7 @@ section{
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s ease;
 }
 
 .product-card button:hover {
